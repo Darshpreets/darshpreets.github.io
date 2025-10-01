@@ -1,0 +1,29 @@
+ <!-- CUSTOM CSS STYLES (Logically separated within the <style> tag) -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom scrollbar for premium look */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-thumb { background: #374151; border-radius: 10px; }
+        ::-webkit-scrollbar-track { background: #1f2937; }
+        /* Smooth scrolling behavior for navigation */
+        html { scroll-behavior: smooth; }
+
+        /* Custom Glow Border effect for professional dark theme */
+        .glow-border {
+            box-shadow: 0 0 20px rgba(90, 155, 220, 0.15); /* Soft outer shadow */
+            border-color: rgba(90, 155, 220, 0.3); /* Subtle accent border */
+        }
+        
+        /* Enhancing skill card hover for a 'lifted' effect */
+        .skill-card {
+            transition: all 0.3s ease;
+            box-shadow: 0 0 5px rgba(0,0,0,0.5);
+        }
+        .skill-card:hover {
+            box-shadow: 0 8px 25px rgba(90, 155, 220, 0.3), 0 0 10px rgba(90, 155, 220, 0.5);
+            transform: translateY(-3px) scale(1.02);
+        }
+    </style>
